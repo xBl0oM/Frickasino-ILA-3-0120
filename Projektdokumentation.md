@@ -41,20 +41,20 @@ Eine interaktive Casino-Webseite, auf der Benutzer beliebte Casinospiele wie Bac
 
 | AP-№ | Frist | Zuständig | Beschreibung                                                                                                  | geplante Zeit in Schulstunden |
 |------|-------|-----------|--------------------------------------------------------------------------------------------------------------|-------------------------------|
-| 1.1  |       |           | Erstellung des zentralen Hub-Layouts mit Platzhaltern für die Spiele und Kontostandsanzeige.                 | 2                             |
-| 1.2  |       |           | Programmierung der Anzeige der vier Spiele im Hub mit ihren Namen und Startbuttons.                          | 2                             |
-| 2.1  |       |           | Implementierung der Navigation, die bei Klick auf ein Spiel direkt zur jeweiligen Spielseite weiterleitet.   | 2                             |
-| 3.1  |       |           | Entwicklung der Kontostandskomponente, die auf dem Hub angezeigt wird.                                       | 2                             |
-| 3.2  |       |           | Programmierung der Kontostandsaktualisierung nach jedem Spiel, sodass der neue Stand direkt im Hub angezeigt wird. | 3                      |
-| 4.1  |       |           | Erstellung eines Systems für Einsätze in jedem Spiel, das den aktuellen Kontostand nutzt.                    | 3                             |
-| 4.2  |       |           | Integration der Einsatzmechanik in jedes einzelne Spiel (Baccarat, Slots, Roulette, Blackjack).              | 4                             |
-| 5.1  |       |           | Erstellen der Anleitungsseite mit Layout und allgemeiner Struktur.                                           | 2                             |
-| 5.2  |       |           | Schreiben der Spielregeln und Anleitungstexte für alle Spiele und Einfügen in die Anleitungsseite.          | 2                             |
-| 6.1  |       |           | Entwicklung von Tipps und einfachen Strategien für jedes Spiel, die in der Anleitungsseite ergänzt werden.   | 2                             |
-| 7.1  |       |           | Programmierung der Funktion, die in jedem Spiel Gewinne und Verluste automatisch mit dem Kontostand verrechnet. | 3                       |
-| 9.1  |       |           | Implementierung einer direkten Rückmeldung im Interface bei Gewinn oder Verlust in jedem Spiel.              | 2                             |
-| 10.1 |       |           | Durchführen von Tests zur Benutzerfreundlichkeit und Fehlerfreiheit der Anwendung auf verschiedenen Geräten. | 2                             |
-| 10.2 |       |           | Endgültige Optimierung der Benutzeroberfläche für reibungslose Bedienung.                                   | 2                             |
+| 1.1  |       |           | Erstellung des zentralen Hub-Layouts mit Platzhaltern für die Spiele und Kontostandsanzeige.                 |                             |
+| 1.2  |       |           | Programmierung der Anzeige der vier Spiele im Hub mit ihren Namen und Startbuttons.                          |                            |
+| 2.1  |       |           | Implementierung der Navigation, die bei Klick auf ein Spiel direkt zur jeweiligen Spielseite weiterleitet.   |                             |
+| 3.1  |       |           | Entwicklung der Kontostandskomponente, die auf dem Hub angezeigt wird.                                       |                            |
+| 3.2  |       |           | Programmierung der Kontostandsaktualisierung nach jedem Spiel, sodass der neue Stand direkt im Hub angezeigt wird. |                      |
+| 4.1  |       |           | Erstellung eines Systems für Einsätze in jedem Spiel, das den aktuellen Kontostand nutzt.                    |                             |
+| 4.2  |       |           | Integration der Einsatzmechanik in jedes einzelne Spiel (Baccarat, Slots, Roulette, Blackjack).              |                            |
+| 5.1  |       |           | Erstellen der Anleitungsseite mit Layout und allgemeiner Struktur.                                           |                             |
+| 5.2  |       |           | Schreiben der Spielregeln und Anleitungstexte für alle Spiele und Einfügen in die Anleitungsseite.          |                             |
+| 6.1  |       |           | Entwicklung von Tipps und einfachen Strategien für jedes Spiel, die in der Anleitungsseite ergänzt werden.   |                             |
+| 7.1  |       |           | Programmierung der Funktion, die in jedem Spiel Gewinne und Verluste automatisch mit dem Kontostand verrechnet. |                     |
+| 9.1  |       |           | Implementierung einer direkten Rückmeldung im Interface bei Gewinn oder Verlust in jedem Spiel.              |                          |
+| 10.1 |       |           | Durchführen von Tests zur Benutzerfreundlichkeit und Fehlerfreiheit der Anwendung auf verschiedenen Geräten. |                              |
+| 10.2 |       |           | Endgültige Optimierung der Benutzeroberfläche für reibungslose Bedienung.                                   |                              |
 
 
 
