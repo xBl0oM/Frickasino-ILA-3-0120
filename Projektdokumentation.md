@@ -13,7 +13,15 @@ Ghost_SnipexOG/Jathhu/JanickDieSniper
 
 Eine interaktive Casino-Webseite, auf der Benutzer beliebte Casinospiele wie Baccarat, Slots, Roulette und Blackjack spielen können.
 
-### 1.2 User Stories
+### 1.2 Meilensteine
+
+| Meilenstein-Nr. | Beschreibung | geplantes Datum |
+| 1 | Abschluss der Projektplanung, Aufgabenverteilung und Erstellung des Hub-Layouts. |  08.11.2024 |
+| 2 | Fertigstellung der Implementierung der Spielseiten und der Anleitungssektion. |  06.12.2024 |
+| 3 | Abschluss der Programmierung aller Funktionen und erste interne Tests. | 13.12.2024 |
+| 4 | Publishen der Seite. | 20.12.2024 |
+
+### 1.3 User Stories
 
 | US-№ | Verbindlichkeit | Typ             | Beschreibung                                                                                       |
 |------|-----------------|-----------------|---------------------------------------------------------------------------------------------------|
@@ -27,7 +35,7 @@ Eine interaktive Casino-Webseite, auf der Benutzer beliebte Casinospiele wie Bac
 | 8    | Muss           | Rahmenbedingung | Die Webseite muss mit React.js und Tailwind CSS umgesetzt werden, um eine hohe Performance und ein ansprechendes Design zu gewährleisten.         |
 | 9    | Muss          | Funktional     | Als Benutzer möchte ich in jedem Spiel direkt im Interface sehen können, ob ich gewinne oder verliere, damit ich sofort eine Rückmeldung habe.  |
 | 10   | Kann        | Qualität     | Als Benutzer möchte ich eine fehlerfreie und leicht zu bedienende Benutzeroberfläche vorfinden, die auf allen gängigen Geräten funktioniert.      |
-### 1.3 Testfälle
+### 1.4 Testfälle
 
 
 | TC-№ | Ausgangslage                                      | Eingabe                             | Erwartete Ausgabe                                                                                       |
