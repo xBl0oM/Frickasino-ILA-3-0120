@@ -52,6 +52,7 @@ Eine interaktive Casino-Webseite, auf der Benutzer beliebte Casinospiele wie Bac
 | 5.2  |       |           | Schreiben der Spielregeln und Anleitungstexte für alle Spiele und Einfügen in die Anleitungsseite.          |                             |
 | 6.1  |       |           | Entwicklung von Tipps und einfachen Strategien für jedes Spiel, die in der Anleitungsseite ergänzt werden.   |                             |
 | 7.1  |       |           | Programmierung der Funktion, die in jedem Spiel Gewinne und Verluste automatisch mit dem Kontostand verrechnet. |                     |
+| 8.1 |        |            | In Tailwind CSS lernen und einarbeiten. | |
 | 9.1  |       |           | Implementierung einer direkten Rückmeldung im Interface bei Gewinn oder Verlust in jedem Spiel.              |                          |
 | 10.1 |       |           | Durchführen von Tests zur Benutzerfreundlichkeit und Fehlerfreiheit der Anwendung auf verschiedenen Geräten. |                              |
 | 10.2 |       |           | Endgültige Optimierung der Benutzeroberfläche für reibungslose Bedienung.                                   |                              |
