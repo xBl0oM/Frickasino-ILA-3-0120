@@ -45,10 +45,9 @@ Eine interaktive Casino-Webseite, auf der Benutzer beliebte Casinospiele wie Bac
 | 4    |       |           | Programmierung der Funktion zur Integration des Kontostands als Einsatzmechanik in jedem Spiel.             | 5                             |
 | 5    |       |           | Erstellung der Anleitungssektion mit Spielregeln und Anleitungen für jedes Spiel.                           | 3                             |
 | 6    |       |           | Hinzufügen von Tipps und Strategien in der Anleitungssektion, um die Spielerfahrung zu verbessern.          | 2                             |
-| 7    |       |           | Implementierung der automatischen Anpassung des Kontostands durch Gewinne und Verluste in jedem Spiel.      | 3                             |
-
-| 8   |       |           | Programmierung eines direkten Feedbacksystems, das den Spielausgang (Gewinn/Verlust) sofort anzeigt.       | 2                             |
-| 9   |       |           | Endgültiges Testen und Optimieren der Benutzeroberfläche für eine reibungslose Nutzung auf allen Geräten.   | 4                             |
+| 7    |       |           | Implementierung der automatischen Anpassung des Kontostands durch Gewinne und Verluste in jedem Spiel.      | 3   |
+| 8   |       |           | Programmierung eines direkten Feedbacksystems, das den Spielausgang (Gewinn/Verlust) sofort anzeigt.       | 2     |
+| 9   |       |           | Endgültiges Testen und Optimieren der Benutzeroberfläche für eine reibungslose Nutzung auf allen Geräten.   | 4    |
 
    
 
