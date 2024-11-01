@@ -1,6 +1,6 @@
 # Projekt-Dokumentation
 
-Ghost_SnipexOG/Jathhu/JanickDieSniper
+Jan, John, Joël, Janick, BBBen (Braten Bohren Behindert)
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
