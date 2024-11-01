@@ -83,6 +83,53 @@ Total:
 
 ## 3 Entscheiden
 
+1. **Technologie: Tailwind CSS**
+   - **Entscheidung:** Wir haben uns für Tailwind CSS entschieden, um das Design unserer WebApp zu gestalten.
+   - **Alternativen:** 
+     - **Bootstrap:** Eine weit verbreitete CSS-Bibliothek, die vorgefertigte Komponenten bereitstellt. 
+   - **Begründung:** Tailwind CSS ermöglicht eine hohe Flexibilität bei der Gestaltung. Im Gegensatz dazu könnten Bootstrap uns in der Gestaltung einschränken, da sie standardisierte Styles und Komponenten verwenden, die möglicherweise nicht zu unserem gewünschten Erscheinungsbild passen. Ausserdem können einige Gruppenmitglieder bereits Tailwind CSS verwenden.
+
+2. **Technologie: React.js**
+   - **Entscheidung:** Für die Entwicklung der Benutzeroberfläche haben wir uns für React.js entschieden.
+   - **Alternativen:**
+     - **Angular:** Ein umfassendes Framework, das ebenfalls zur Erstellung von Webanwendungen verwendet wird.
+   - **Begründung:** React.js bietet eine einfache Struktur, die es uns ermöglicht, wiederverwendbare Komponenten zu erstellen. Da wir bis Dato meistens mit React.js gearbeitet haben, sind wir bereits in der Lage, es anzuwenden und müssen nicht extra Zeit zum lernen aufwenden.
+
+3. **Plattform: WebApp**
+   - **Entscheidung:** Wir haben uns entschieden, eine WebApp zu entwickeln, die auf Browsern läuft.
+   - **Alternativen:**
+     - **Native App:** Entwicklung einer Anwendung, die speziell für mobile Geräte (iOS/Android) erstellt wird.
+     - **Desktop-App:** Erstellung einer Anwendung, die auf Desktop-Betriebssystemen (Windows, macOS, Linux) läuft.
+   - **Begründung:** Eine WebApp ermöglicht uns, eine einfachere Umsetzung, da sie auf verschiedenen Geräten ohne Installation zugänglich ist. Das Publishen einer WebApp ist ausserdem auch einfacher durch Netlify.
+
+4. **Projektart: Casino-App mit vier Spielen**
+   - **Entscheidung:** Wir haben uns für die Entwicklung einer Casino-App entschieden, die die Spiele Baccarat, Slots, Roulette und Blackjack umfasst.
+   - **Alternativen:**
+     - **Plattform für soziale Spiele:** Entwicklung einer App für soziale Spiele wie Trivia oder Kartenspiele ohne Glücksspiel.
+     - **Bildungs-App:** Erstellung einer App mit Fokus auf Lerninhalte, z.B. Programmieren oder Mathe.
+   - **Begründung:** Wir haben uns bei der Entscheidung von unseren Emotionen und persönlichen Vorlieben leiten lassen. Ein Casino-Spielt bietet die Möglichkeit mehrere kleine Spiel zu erstellen und so ein Abwechslungsreiches Projekt zu machen. Zusätzlich können wir die Casino-WebApp auch während des Unterrichts benutzen.
+
+5. **Methodik: IPERKA**
+   - **Entscheidung:** Wir haben die IPERKA-Methode (Informieren, Planen, Entscheiden, Realisieren, Kontrollieren, Auswerten) gewählt.
+   - **Alternativen:**
+     - **Agile Methoden (z.B. Scrum):** Eine iterative Vorgehensweise, die in vielen Softwareentwicklungsprojekten verwendet wird.
+     - **Wasserfallmodell:** Eine lineare, sequenzielle Entwicklungsweise.
+   - **Begründung:** IPERKA bietet eine strukturierte Herangehensweise, die uns hilft, jeden Schritt klar zu definieren und zu dokumentieren. Agile Methoden wären zwar flexibel, könnten jedoch zu Unklarheiten bei der Planung führen, während das Wasserfallmodell in einem dynamischen Umfeld nicht genügend Anpassungsfähigkeit bietet.
+
+6. **Versionskontrolle: GitHub**
+   - **Entscheidung:** Wir haben GitHub als Plattform für die Versionskontrolle und Zusammenarbeit gewählt.
+   - **Alternativen:**
+     - **GitLab:** Eine weitere beliebte Plattform für Versionskontrolle und CI/CD.
+   - **Begründung:** Da wir schon immer mit GitHub gearbeitet haben und es für die Versionskontrolle, Zusammenarbeit und Ablage sehr gut geeignet, entscheiden wir uns für Github.
+
+7. **Hosting: Netlify**
+   - **Entscheidung:** Für das Hosting der WebApp haben wir Netlify gewählt.
+   - **Alternativen:**
+     - **Vercel:** Eine weitere beliebte Plattform für das Hosting von Frontend-Anwendungen.
+   - **Begründung:** Netlify bietet eine einfache und schnelle Bereitstellung für statische Webseiten und unterstützt die Integration mit GitHub für automatisierte Deployments. Wir haben Netlify schon in früheren Projekten verwendet und wissen deshalbt wie es anzuwenden ist.
+
+
+
 ## 4 Realisieren
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
