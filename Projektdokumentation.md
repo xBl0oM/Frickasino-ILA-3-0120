@@ -37,9 +37,19 @@ Eine interaktive Casino-Webseite, auf der Benutzer beliebte Casinospiele wie Bac
 
 ## 2 Planen
 
-| AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit in Schulstunden |
-| ---- | ----- | --------- | ------------ | ------------- |
-|  |       |        |           |             |
+| AP-№ | Frist | Zuständig | Beschreibung     | geplante Zeit in Schulstunden |
+|------|-------|-----------|--------------------------------------------------------------------------------------------------------------|-------------------------------|
+| 1    |       |           | Implementierung des zentralen Hubs mit Übersicht über alle Spiele und Kontostandsanzeige.                    | 4                             |
+| 2    |       |           | Verlinken der Spiele im Hub, sodass ein Klick auf ein Spiel direkt zur entsprechenden Seite führt.           | 2                             |
+| 3    |       |           | Anzeige des Kontostands auf der Hub-Übersicht und Aktualisierung bei jedem Einsatz und Gewinn.               | 3                             |
+| 4    |       |           | Programmierung der Funktion zur Integration des Kontostands als Einsatzmechanik in jedem Spiel.             | 5                             |
+| 5    |       |           | Erstellung der Anleitungssektion mit Spielregeln und Anleitungen für jedes Spiel.                           | 3                             |
+| 6    |       |           | Hinzufügen von Tipps und Strategien in der Anleitungssektion, um die Spielerfahrung zu verbessern.          | 2                             |
+| 7    |       |           | Implementierung der automatischen Anpassung des Kontostands durch Gewinne und Verluste in jedem Spiel.      | 3                             |
+
+| 8   |       |           | Programmierung eines direkten Feedbacksystems, das den Spielausgang (Gewinn/Verlust) sofort anzeigt.       | 2                             |
+| 9   |       |           | Endgültiges Testen und Optimieren der Benutzeroberfläche für eine reibungslose Nutzung auf allen Geräten.   | 4                             |
+
    
 
 Total: 
