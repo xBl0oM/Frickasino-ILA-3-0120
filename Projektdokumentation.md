@@ -16,6 +16,7 @@ Eine interaktive Casino-Webseite, auf der Benutzer beliebte Casinospiele wie Bac
 ### 1.2 Meilensteine
 
 | Meilenstein-Nr. | Beschreibung | geplantes Datum |
+|------|----|-----|
 | 1 | Abschluss der Projektplanung, Aufgabenverteilung und Erstellung des Hub-Layouts. |  08.11.2024 |
 | 2 | Fertigstellung der Implementierung der Spielseiten und der Anleitungssektion. |  06.12.2024 |
 | 3 | Abschluss der Programmierung aller Funktionen und erste interne Tests. | 13.12.2024 |
