@@ -29,10 +29,21 @@ Eine interaktive Casino-Webseite, auf der Benutzer beliebte Casinospiele wie Bac
 | 10   | Kann        | Qualität     | Als Benutzer möchte ich eine fehlerfreie und leicht zu bedienende Benutzeroberfläche vorfinden, die auf allen gängigen Geräten funktioniert.      |
 ### 1.3 Testfälle
 
-| TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
-| ---- | ------------ | ------- | ----------------- |
-| 1.1  |  |  |  |
 
+| TC-№ | Ausgangslage                                      | Eingabe                             | Erwartete Ausgabe                                                                                       |
+|------|---------------------------------------------------|-------------------------------------|----------------------------------------------------------------------------------------------------------|
+| 1.1  | Benutzer öffnet die Webseite                       | Webseite wird geladen               | Die zentrale Hub-Übersicht wird angezeigt, inklusive aller vier Spiele und dem aktuellen Kontostand.    |
+| 1.2  | Hub-Übersicht ist geladen                          | Keine Eingabe                      | Die Anzeige zeigt alle Spielebuttons und den Kontostand korrekt positioniert an.                         |
+| 2.1  | Hub-Übersicht wird angezeigt                       | Klick auf einen Spiel-Button       | Benutzer wird zur entsprechenden Spielseite weitergeleitet.                                            |
+| 3.1  | Benutzer ist im Hub und hat ein Spiel beendet     | Spiel wird abgeschlossen            | Der Kontostand wird korrekt aktualisiert und im Hub angezeigt.                                          |
+| 4.1  | Benutzer möchte ein Spiel starten                  | Benutzer wählt einen Einsatzbetrag  | Der Einsatzbetrag wird vom Kontostand abgezogen, bevor das Spiel gestartet wird.                        |
+| 4.2  | Benutzer ist im Spiel                              | Benutzer setzt einen Betrag         | Der Einsatz wird erfolgreich platziert, und der Kontostand wird entsprechend aktualisiert.              |
+| 5.1  | Hub-Übersicht wird angezeigt                       | Benutzer klickt auf die Anleitungssektion | Die Anleitungsseite öffnet sich und zeigt die Regeln aller Spiele an.                                  |
+| 6.1  | Anleitungsseite wird angezeigt                     | Keine Eingabe                      | Tipps und Strategien für jedes Spiel sind sichtbar und verständlich dargestellt.                         |
+| 7.1  | Benutzer hat ein Spiel gespielt                     | Spiel endet                        | Gewinne werden dem Kontostand hinzugefügt oder Verluste abgezogen, und der neue Kontostand wird angezeigt. |
+| 9.1  | Benutzer hat ein Spiel gespielt                     | Spiel endet                        | Eine Rückmeldung wird angezeigt, ob der Benutzer gewonnen oder verloren hat; Kontostand wird aktualisiert. |
+| 10.1 | Webseite wird geladen                               | Benutzer öffnet die Seite           | Die Webseite funktioniert fehlerfrei auf Desktop, Tablet und Smartphone, alle Inhalte werden korrekt angezeigt. |
+| 10.2 | Webseite wird geladen                               | Benutzer nutzt verschiedene Browser | Die Webseite funktioniert stabil ohne Fehler oder Ladeprobleme in allen gängigen Browsern.               |
 
 
 ## 2 Planen
