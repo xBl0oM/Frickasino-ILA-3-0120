@@ -37,18 +37,21 @@ Eine interaktive Casino-Webseite, auf der Benutzer beliebte Casinospiele wie Bac
 
 ## 2 Planen
 
-| AP-№ | Frist | Zuständig | Beschreibung     | geplante Zeit in Schulstunden |
-|------|-------|-----------|--------------------------------------------------------------------------------------------------------------|-------------------------------|
-| 1    |       |           | Implementierung des zentralen Hubs mit Übersicht über alle Spiele und Kontostandsanzeige.                    | 4                             |
-| 2    |       |           | Verlinken der Spiele im Hub, sodass ein Klick auf ein Spiel direkt zur entsprechenden Seite führt.           | 2                             |
-| 3    |       |           | Anzeige des Kontostands auf der Hub-Übersicht und Aktualisierung bei jedem Einsatz und Gewinn.               | 3                             |
-| 4    |       |           | Programmierung der Funktion zur Integration des Kontostands als Einsatzmechanik in jedem Spiel.             | 5                             |
-| 5    |       |           | Erstellung der Anleitungssektion mit Spielregeln und Anleitungen für jedes Spiel.                           | 3                             |
-| 6    |       |           | Hinzufügen von Tipps und Strategien in der Anleitungssektion, um die Spielerfahrung zu verbessern.          | 2                             |
-| 7    |       |           | Implementierung der automatischen Anpassung des Kontostands durch Gewinne und Verluste in jedem Spiel.      | 3   |
-| 8   |       |           | Programmierung eines direkten Feedbacksystems, das den Spielausgang (Gewinn/Verlust) sofort anzeigt.       | 2     |
-| 9   |       |           | Endgültiges Testen und Optimieren der Benutzeroberfläche für eine reibungslose Nutzung auf allen Geräten.   | 4    |
-
+|AP-№	|Frist|	Zuständig|	Beschreibung|	geplante Zeit in Schulstunden|
+|1.1|			Erstellung des zentralen Hub-Layouts mit Platzhaltern für die Spiele und Kontostandsanzeige.|	2|
+|1.2|			Programmierung der Anzeige der vier Spiele im Hub mit ihren Namen und Startbuttons.	|2|
+|2.1|			Implementierung der Navigation, die bei Klick auf ein Spiel direkt zur jeweiligen Spielseite weiterleitet.|	2|
+|3.1	|		Entwicklung der Kontostandskomponente, die auf dem Hub angezeigt wird.|	2|
+|3.2		|	Programmierung der Kontostandsaktualisierung nach jedem Spiel, sodass der neue Stand direkt im Hub angezeigt wird.	|3|
+|4.1		|	Erstellung eines Systems für Einsätze in jedem Spiel, das den aktuellen Kontostand nutzt.|	3|
+|4.2	|		Integration der Einsatzmechanik in jedes einzelne Spiel (Baccarat, Slots, Roulette, Blackjack).	|4|
+|5.1	|		Erstellen der Anleitungsseite mit Layout und allgemeiner Struktur.|	2|
+|5.2		|	Schreiben der Spielregeln und Anleitungstexte für alle Spiele und Einfügen in die Anleitungsseite.	|2|
+|6.1	|		Entwicklung von Tipps und einfachen Strategien für jedes Spiel, die in der Anleitungsseite ergänzt werden.|	2|
+|7.1		|	Programmierung der Funktion, die in jedem Spiel Gewinne und Verluste automatisch mit dem Kontostand verrechnet.	|3|
+|9.1	|		Implementierung einer direkten Rückmeldung im Interface bei Gewinn oder Verlust in jedem Spiel.	|2|
+|10.1	|		Durchführen von Tests zur Benutzerfreundlichkeit und Fehlerfreiheit der Anwendung auf verschiedenen Geräten.|	2|
+|10.2	|		Endgültige Optimierung der Benutzeroberfläche für reibungslose Bedienung.	|2|
    
 
 Total: 
