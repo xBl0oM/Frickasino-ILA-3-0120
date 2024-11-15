@@ -4,7 +4,8 @@ Jan, John, Joël, Janick, BBBen (Braten Bohren Behindert)
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|  01.11.2024    | 0.1.0   | Start des Projektes - Informieren, Planen, Entscheiden. Doku erstellt. |
+|  01.11.2024    | 0.0.0   | Start des Projektes - Informieren, Planen, Entscheiden. Doku erstellt. |
+| 08.11.2024 | 0.0.0 | Tailwind CSS gelernt und geübt. |
 
 
 ## 1 Informieren
