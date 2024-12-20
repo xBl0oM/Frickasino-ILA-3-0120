@@ -173,9 +173,22 @@ Total: 90
 
 ### 5.1 Testprotokoll
 
-| TC-№ | Datum | Resultat | Tester |
-| ---- | ----- | -------- | ------ |
-| 1.1  |    |      |       |
+
+| TC-№ | Datum       | Resultat | Tester         |
+|------|-------------|----------|----------------|
+| 1.1  | 2024-12-20  | NOK      | Joël Haldimann |
+| 1.2  | 2024-12-20  | NOK      | Joël Haldimann |
+| 2.1  | 2024-12-20  | NOK      | Joël Haldimann |
+| 3.1  | 2024-12-20  | NOK      | Joël Haldimann |
+| 4.1  | 2024-12-20  | NOK      | Joël Haldimann |
+| 4.2  | 2024-12-20  | NOK      | Joël Haldimann |
+| 5.1  | 2024-12-20  | NOK      | Joël Haldimann |
+| 6.1  | 2024-12-20  | NOK      | Joël Haldimann |
+| 7.1  | 2024-12-20  | NOK      | Joël Haldimann |
+| 9.1  | 2024-12-20  | NOK      | Joël Haldimann |
+| 10.1 | 2024-12-20  | NOK      | Joël Haldimann |
+| 10.2 | 2024-12-20  | NOK      | Joël Haldimann |
+
 
 
 
