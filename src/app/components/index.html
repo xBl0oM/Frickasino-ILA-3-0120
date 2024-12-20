@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roulette Spiel</title>
+  <link href="style.css" rel="stylesheet"> <!-- Verweis auf Tailwind Styles -->
+</head>
+<body class="bg-gray-900 text-white flex flex-col items-center justify-center min-h-screen">
+
+  <!-- Titel -->
+  <h1 class="text-4xl font-bold mb-8">Roulette Spiel</h1>
+
+  <div class="flex items-center justify-center gap-8">
+    <!-- Roulette Rad -->
+    <img id="rad" src="Rad.png" alt="Roulette Rad" class="max-w-xs w-full"> <!-- Rad bleibt kleiner -->
+  
+    <!-- Roulette Tisch (größer gemacht) -->
+    <img id="table" src="table.png" alt="Roulette Tisch" class="max-w-2xl w-full"> <!-- Tisch größer -->
+  </div>
+
+
+  <!-- Einsatzbereich -->
+  <div class="mt-8">
+    <label for="einsatz" class="block text-lg font-semibold">Dein Einsatzbetrag:</label>
+    <input id="einsatz" type="number" class="mt-2 px-4 py-2 rounded bg-gray-800 text-white" min="1" placeholder="Einsatzbetrag eingeben" />
+  </div>
+
+  <div class="mt-4 flex gap-4">
+    <button id="setzeRot" class="px-6 py-3 bg-red-600 hover:bg-red-700 text-lg font-bold rounded transition-transform transform hover:scale-105 active:scale-95">
+      Wette auf Rot
+    </button>
+    <button id="setzeSchwarz" class="px-6 py-3 bg-black hover:bg-gray-700 text-lg font-bold rounded transition-transform transform hover:scale-105 active:scale-95">
+      Wette auf Schwarz
+    </button>
+    <!-- Setzen auf Grün -->
+<button id="setzeGrün" class="mt-6 px-6 py-3 bg-green-600 hover:bg-green-700 text-lg font-bold rounded transition-transform transform hover:scale-105 active:scale-95">
+  Setze auf Grün (0)
+</button>
+  </div>
+<!-- Setzen auf eine Zahl -->
+<div class="mt-6">
+  <input id="zahlInput" type="number" min="0" max="36" placeholder="Wähle eine Zahl (0-36)" class="px-4 py-2 text-lg rounded bg-gray-700 text-white">
+  <button id="setzeZahl" class="mt-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-lg font-bold rounded transition-transform transform hover:scale-105 active:scale-95">
+    Setze auf diese Zahl
+  </button>
+</div>
+<div class="mt-6">
+  <input id="autoSpinsInput" type="number" min="1" placeholder="Anzahl Auto-Spins" class="px-4 py-2 text-lg rounded bg-gray-700 text-white">
+  <button id="startAutoSpins" class="mt-2 px-6 py-3 bg-yellow-600 hover:bg-yellow-700 text-lg font-bold rounded transition-transform transform hover:scale-105 active:scale-95">
+    Starte Auto-Spins
+  </button>
+  <button id="stopAutoSpins" class="mt-2 px-6 py-3 bg-red-600 hover:bg-red-700 text-lg font-bold rounded transition-transform transform hover:scale-105 active:scale-95">
+    Stoppe Auto-Spins
+  </button>
+</div>
+
+
+  <!-- Ergebnis-Anzeige -->
+  <div id="ergebnis" class="mt-8 text-2xl font-semibold text-center">
+    Drücke auf "Drehen"!
+  </div>
+
+  <!-- Guthabenanzeige -->
+  <div id="guthaben" class="mt-8 text-lg font-semibold">
+    Dein Guthaben: <span id="guthabenBetrag">1000</span>
+  </div>
+
+  <!-- Button für das Drehen -->
+  <button id="drehButton" class="mt-6 px-6 py-3 bg-green-600 hover:bg-green-700 text-lg font-bold rounded transition-transform transform hover:scale-105 active:scale-95">
+    Drehen!
+  </button>
+
+  <script src="app.js"></script> <!-- Dein JavaScript -->
+</body>
+</html>
