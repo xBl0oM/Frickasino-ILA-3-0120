@@ -5,8 +5,13 @@ Jan, John, Joël, Janick, BBBen (Braten Bohren Behindert)
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |  01.11.2024    | 0.0.0   | Start des Projektes - Informieren, Planen, Entscheiden. Doku erstellt. |
-| 08.11.2024 | 0.0.0 | Tailwind CSS gelernt und geübt. |
-
+| 08.11.2024 | 0.1.0 | Tailwind CSS gelernt und geübt. Mit Hub-Layout angefangen. |
+| 15.11.2024| 0.2.0| |
+| 22.11.2024| 0.3.0| |
+| 29.11.2024| 0.4.0| |
+| 06.12.2024| 0.5.0|Spiele fertig programmiert. |
+| 13.12.2024|1.0.0 | Abschluss der Programmierung und Tests angefangen durchzuführen. |
+| 20.12.2024| 1.0.0|Seite gepublished. |
 
 ## 1 Informieren
 
@@ -37,7 +42,10 @@ Eine interaktive Casino-Webseite, auf der Benutzer beliebte Casinospiele wie Bac
 | 8    | Muss           | Rahmenbedingung | Die Webseite muss mit React.js und Tailwind CSS umgesetzt werden, um eine hohe Performance und ein ansprechendes Design zu gewährleisten.         |
 | 9    | Muss          | Funktional     | Als Benutzer möchte ich in jedem Spiel direkt im Interface sehen können, ob ich gewinne oder verliere, damit ich sofort eine Rückmeldung habe.  |
 | 10   | Kann        | Qualität     | Als Benutzer möchte ich eine fehlerfreie und leicht zu bedienende Benutzeroberfläche vorfinden, die auf allen gängigen Geräten funktioniert.      |
+
+
 ### 1.4 Testfälle
+
 
 
 | TC-№ | Ausgangslage                                      | Eingabe                             | Erwartete Ausgabe                                                                                       |
@@ -56,28 +64,36 @@ Eine interaktive Casino-Webseite, auf der Benutzer beliebte Casinospiele wie Bac
 | 10.2 | Webseite wird geladen                               | Benutzer nutzt verschiedene Browser | Die Webseite funktioniert stabil ohne Fehler oder Ladeprobleme in allen gängigen Browsern.               |
 
 
-## 2 Planen
+## 2. Planen
 
+| AP-№ | Frist     | Zuständig          | Beschreibung                                                                                                  | Geplante Zeit in Schulstunden |
+|------|-----------|--------------------|--------------------------------------------------------------------------------------------------------------|-------------------------------|
+| 1.1  | 15.11.    | Teammitglied 1     | Erstellung des zentralen Hub-Layouts mit Platzhaltern für die Spiele und Kontostandsanzeige.                 | 2                             |
+| 1.2  | 15.11.    | Teammitglied 2     | Programmierung der Anzeige der vier Spiele im Hub mit ihren Namen und Startbuttons.                          | 2                             |
+| 2.1  | 15.11.    | Teammitglied 3     | Implementierung der Navigation, die bei Klick auf ein Spiel direkt zur jeweiligen Spielseite weiterleitet.   | 2                             |
+| 3.1  | 22.11.    | Teammitglied 4     | Entwicklung der Kontostandskomponente, die auf dem Hub angezeigt wird.                                       | 2                             |
+| 3.2  | 22.11.    | Teammitglied 5     | Programmierung der Kontostandsaktualisierung nach jedem Spiel, sodass der neue Stand direkt im Hub angezeigt wird. | 2                     |
+| 4.1  | 29.11.    | Teammitglied 1     | Erstellung eines Systems für Einsätze in jedem Spiel, das den aktuellen Kontostand nutzt.                    | 3                             |
+| 4.2  | 29.11.    | Teammitglied 2     | Integration der Einsatzmechanik in jedes einzelne Spiel (Baccarat, Slots, Roulette, Blackjack).              | 3                             |
+| 5.1  | 06.12.    | Teammitglied 3     | Erstellen der Anleitungsseite mit Layout und allgemeiner Struktur.                                           | 2                             |
+| 5.2  | 06.12.    | Teammitglied 4     | Schreiben der Spielregeln und Anleitungstexte für alle Spiele und Einfügen in die Anleitungsseite.           | 3                             |
+| 6.1  | 06.12.    | Teammitglied 5     | Entwicklung von Tipps und einfachen Strategien für jedes Spiel, die in der Anleitungsseite ergänzt werden.   | 2                             |
+| 7.1  | 13.12.    | Teammitglied 1     | Programmierung der Funktion, die in jedem Spiel Gewinne und Verluste automatisch mit dem Kontostand verrechnet. | 3                     |
+| 8.1  | 15.11.    | Alle               | Lernen und Einarbeiten in Tailwind CSS.                                                                      | 1 pro Person (5 Stunden)      |
+| 9.1  | 13.12.    | Teammitglied 2     | Implementierung einer direkten Rückmeldung im Interface bei Gewinn oder Verlust in jedem Spiel.              | 2                             |
+| 10.1 | 20.12.    | Teammitglied 3, 4  | Durchführen von Tests zur Benutzerfreundlichkeit und Fehlerfreiheit der Anwendung auf verschiedenen Geräten. | 3                             |
+| 10.2 | 20.12.    | Teammitglied 5     | Endgültige Optimierung der Benutzeroberfläche für reibungslose Bedienung.                                   | 2                             |
 
+---
 
-| AP-№ | Frist | Zuständig | Beschreibung                                                                                                  | geplante Zeit in Schulstunden |
-|------|-------|-----------|--------------------------------------------------------------------------------------------------------------|-------------------------------|
-| 1.1  |       |           | Erstellung des zentralen Hub-Layouts mit Platzhaltern für die Spiele und Kontostandsanzeige.                 |                             |
-| 1.2  |       |           | Programmierung der Anzeige der vier Spiele im Hub mit ihren Namen und Startbuttons.                          |                            |
-| 2.1  |       |           | Implementierung der Navigation, die bei Klick auf ein Spiel direkt zur jeweiligen Spielseite weiterleitet.   |                             |
-| 3.1  |       |           | Entwicklung der Kontostandskomponente, die auf dem Hub angezeigt wird.                                       |                            |
-| 3.2  |       |           | Programmierung der Kontostandsaktualisierung nach jedem Spiel, sodass der neue Stand direkt im Hub angezeigt wird. |                      |
-| 4.1  |       |           | Erstellung eines Systems für Einsätze in jedem Spiel, das den aktuellen Kontostand nutzt.                    |                             |
-| 4.2  |       |           | Integration der Einsatzmechanik in jedes einzelne Spiel (Baccarat, Slots, Roulette, Blackjack).              |                            |
-| 5.1  |       |           | Erstellen der Anleitungsseite mit Layout und allgemeiner Struktur.                                           |                             |
-| 5.2  |       |           | Schreiben der Spielregeln und Anleitungstexte für alle Spiele und Einfügen in die Anleitungsseite.          |                             |
-| 6.1  |       |           | Entwicklung von Tipps und einfachen Strategien für jedes Spiel, die in der Anleitungsseite ergänzt werden.   |                             |
-| 7.1  |       |           | Programmierung der Funktion, die in jedem Spiel Gewinne und Verluste automatisch mit dem Kontostand verrechnet. |                     |
-| 8.1 |        |            | In Tailwind CSS lernen und einarbeiten. | |
-| 9.1  |       |           | Implementierung einer direkten Rückmeldung im Interface bei Gewinn oder Verlust in jedem Spiel.              |                          |
-| 10.1 |       |           | Durchführen von Tests zur Benutzerfreundlichkeit und Fehlerfreiheit der Anwendung auf verschiedenen Geräten. |                              |
-| 10.2 |       |           | Endgültige Optimierung der Benutzeroberfläche für reibungslose Bedienung.                                   |                              |
+### Verteilung der Arbeitstage
 
+- **15.11.**: Fokus auf Grundlagen (Hub-Layout, Navigation, Tailwind CSS).  
+- **22.11.**: Fokus auf Kontostandskomponenten.  
+- **29.11.**: Fokus auf Einsätze und deren Mechanik.  
+- **06.12.**: Fokus auf die Anleitung.  
+- **13.12.**: Fokus auf Gewinn-/Verlustlogik und Feedback.  
+- **20.12.**: Fokus auf Tests und Optimierung.  
 
 
 Total: 
