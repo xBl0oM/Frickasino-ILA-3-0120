@@ -68,21 +68,21 @@ Eine interaktive Casino-Webseite, auf der Benutzer beliebte Casinospiele wie Bac
 
 | AP-№ | Frist     | Zuständig          | Beschreibung                                                                                                  | Geplante Zeit in Schulstunden |
 |------|-----------|--------------------|--------------------------------------------------------------------------------------------------------------|-------------------------------|
-| 1.1  | 15.11.    | Teammitglied 1     | Erstellung des zentralen Hub-Layouts mit Platzhaltern für die Spiele und Kontostandsanzeige.                 | 2                             |
-| 1.2  | 15.11.    | Teammitglied 2     | Programmierung der Anzeige der vier Spiele im Hub mit ihren Namen und Startbuttons.                          | 2                             |
-| 2.1  | 15.11.    | Teammitglied 3     | Implementierung der Navigation, die bei Klick auf ein Spiel direkt zur jeweiligen Spielseite weiterleitet.   | 2                             |
-| 3.1  | 22.11.    | Teammitglied 4     | Entwicklung der Kontostandskomponente, die auf dem Hub angezeigt wird.                                       | 2                             |
-| 3.2  | 22.11.    | Teammitglied 5     | Programmierung der Kontostandsaktualisierung nach jedem Spiel, sodass der neue Stand direkt im Hub angezeigt wird. | 2                     |
-| 4.1  | 29.11.    | Teammitglied 1     | Erstellung eines Systems für Einsätze in jedem Spiel, das den aktuellen Kontostand nutzt.                    | 3                             |
-| 4.2  | 29.11.    | Teammitglied 2     | Integration der Einsatzmechanik in jedes einzelne Spiel (Baccarat, Slots, Roulette, Blackjack).              | 3                             |
-| 5.1  | 06.12.    | Teammitglied 3     | Erstellen der Anleitungsseite mit Layout und allgemeiner Struktur.                                           | 2                             |
-| 5.2  | 06.12.    | Teammitglied 4     | Schreiben der Spielregeln und Anleitungstexte für alle Spiele und Einfügen in die Anleitungsseite.           | 3                             |
-| 6.1  | 06.12.    | Teammitglied 5     | Entwicklung von Tipps und einfachen Strategien für jedes Spiel, die in der Anleitungsseite ergänzt werden.   | 2                             |
-| 7.1  | 13.12.    | Teammitglied 1     | Programmierung der Funktion, die in jedem Spiel Gewinne und Verluste automatisch mit dem Kontostand verrechnet. | 3                     |
+| 1.1  | 15.11.    | Teammitglied 1     | Erstellung des zentralen Hub-Layouts mit Platzhaltern für die Spiele und Kontostandsanzeige.                 | 6                             |
+| 1.2  | 15.11.    | Teammitglied 2     | Programmierung der Anzeige der vier Spiele im Hub mit ihren Namen und Startbuttons.                          | 6                             |
+| 2.1  | 15.11.    | Teammitglied 3     | Implementierung der Navigation, die bei Klick auf ein Spiel direkt zur jeweiligen Spielseite weiterleitet.   | 5                             |
+| 3.1  | 22.11.    | Teammitglied 4     | Entwicklung der Kontostandskomponente, die auf dem Hub angezeigt wird.                                       | 5                             |
+| 3.2  | 22.11.    | Teammitglied 5     | Programmierung der Kontostandsaktualisierung nach jedem Spiel, sodass der neue Stand direkt im Hub angezeigt wird. | 6                     |
+| 4.1  | 29.11.    | Teammitglied 1     | Erstellung eines Systems für Einsätze in jedem Spiel, das den aktuellen Kontostand nutzt.                    | 8                             |
+| 4.2  | 29.11.    | Teammitglied 2     | Integration der Einsatzmechanik in jedes einzelne Spiel (Baccarat, Slots, Roulette, Blackjack).              |9                             |
+| 5.1  | 06.12.    | Teammitglied 3     | Erstellen der Anleitungsseite mit Layout und allgemeiner Struktur.                                           | 6                            |
+| 5.2  | 06.12.    | Teammitglied 4     | Schreiben der Spielregeln und Anleitungstexte für alle Spiele und Einfügen in die Anleitungsseite.           | 8                            |
+| 6.1  | 06.12.    | Teammitglied 5     | Entwicklung von Tipps und einfachen Strategien für jedes Spiel, die in der Anleitungsseite ergänzt werden.   | 5                            |
+| 7.1  | 13.12.    | Teammitglied 1     | Programmierung der Funktion, die in jedem Spiel Gewinne und Verluste automatisch mit dem Kontostand verrechnet. | 9                    |
 | 8.1  | 15.11.    | Alle               | Lernen und Einarbeiten in Tailwind CSS.                                                                      | 1 pro Person (5 Stunden)      |
-| 9.1  | 13.12.    | Teammitglied 2     | Implementierung einer direkten Rückmeldung im Interface bei Gewinn oder Verlust in jedem Spiel.              | 2                             |
-| 10.1 | 20.12.    | Teammitglied 3, 4  | Durchführen von Tests zur Benutzerfreundlichkeit und Fehlerfreiheit der Anwendung auf verschiedenen Geräten. | 3                             |
-| 10.2 | 20.12.    | Teammitglied 5     | Endgültige Optimierung der Benutzeroberfläche für reibungslose Bedienung.                                   | 2                             |
+| 9.1  | 13.12.    | Teammitglied 2     | Implementierung einer direkten Rückmeldung im Interface bei Gewinn oder Verlust in jedem Spiel.              | 6                             |
+| 10.1 | 20.12.    | Teammitglied 3, 4  | Durchführen von Tests zur Benutzerfreundlichkeit und Fehlerfreiheit der Anwendung auf verschiedenen Geräten. | 6                            |
+| 10.2 | 20.12.    | Teammitglied 5     | Endgültige Optimierung der Benutzeroberfläche für reibungslose Bedienung.                                   | 6                             |
 
 ---
 
