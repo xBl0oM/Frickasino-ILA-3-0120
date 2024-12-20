@@ -6,9 +6,9 @@ Jan, John, Joël, Janick, BBBen (Braten Bohren Behindert)
 | ----- | ------- | ------------------------------------------------------------ |
 |  01.11.2024    | 0.0.0   | Start des Projektes - Informieren, Planen, Entscheiden. Doku erstellt. |
 | 08.11.2024 | 0.1.0 | Tailwind CSS gelernt und geübt. Mit Hub-Layout angefangen. |
-| 15.11.2024| 0.2.0| |
-| 22.11.2024| 0.3.0| |
-| 29.11.2024| 0.4.0| |
+| 15.11.2024| 0.2.0|Hub fertiggestellt + Navigation zu Spielen. |
+| 22.11.2024| 0.3.0|Kontostand implementiert |
+| 29.11.2024| 0.4.0|System für Einsätze in den Spielen implementiert. Spiele angefangen zu programmieren. |
 | 06.12.2024| 0.5.0|Spiele fertig programmiert. |
 | 13.12.2024|1.0.0 | Abschluss der Programmierung und Tests angefangen durchzuführen. |
 | 20.12.2024| 1.0.0|Seite gepublished. |
