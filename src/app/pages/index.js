@@ -1,10 +1,7 @@
-import BaccaratGame from '../components/BaccaratGame'; // Import BaccaratGame component
-
+import Page from '../../app/page'
 const HomePage = () => {
   return (
-    <div>
-      <BaccaratGame />
-    </div>
+   <Page/>
   );
 };
 

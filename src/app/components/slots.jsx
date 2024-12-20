@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import StartScreen from "./StartScreen";
 
 const symbols = ["🍒", "🍋", "🍉", "🍇", "⭐️", "🍀"];
 const placeholder = "⬛";
@@ -147,7 +146,15 @@ function Slots() {
       ) : isGameActive ? (
         <SlotsGame onGameOver={handleGameOver} onBackToMenu={backToMenu} />
       ) : (
-        <StartScreen onStart={startGame} />
+        <div className="flex flex-col items-center p-6 bg-gray-800 text-white rounded-lg shadow-lg w-80 mx-auto">
+          <h1 className="text-3xl font-bold mb-6">Willkommen zum Spiel</h1>
+          <button
+            onClick={startGame}
+            className="px-6 py-3 bg-blue-500 rounded-lg font-bold hover:bg-blue-700 transition"
+          >
+            Spiel starten
+          </button>
+        </div>
       )}
     </div>
   );
